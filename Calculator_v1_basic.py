@@ -19,7 +19,8 @@ while True:
     cont = input("Do you want to continue? (yes/no): ")
     if cont.lower() != "yes":
         print("Goodbye calc buddy!")
-        #break
+        break
+
 
 
 

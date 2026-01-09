@@ -16,10 +16,11 @@ while True:
             print("Math Error: you cannot divide a number by zero.")
     else:
         print(message)
-    #cont = input("Do you want to continue? (yes/no): ")
-    #if cont.lower() != "yes":
-        #print("Goodbye calc buddy!")
+    cont = input("Do you want to continue? (yes/no): ")
+    if cont.lower() != "yes":
+        print("Goodbye calc buddy!")
         #break
+
 
 
 
